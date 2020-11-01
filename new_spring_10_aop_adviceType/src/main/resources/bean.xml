@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--配置spring的ioc-->
+    <bean id="accountService" class="com.myself.service.impl.AccountServiceImpl"></bean>
+    <bean id="logger" class="com.myself.utils.Logger"></bean>
+
+    <!--配置AOP-->
+    <aop:config>
+        <!--配置切入点表达式
+               id属性：唯一标识
+               expression属性：指定表达式内容-->
+        <aop:pointcut id="pointCut1"
+                      expression="execution(* com.myself.service.impl.*.*(..))"></aop:pointcut>
+        <!--配置切面-->
+        <aop:aspect id="beforeAdvice" ref="logger">
+            <!--前置通知：在切入点方法执行之前-->
+            <!--<aop:before method="beforePrintLog" pointcut-ref="pointCut1"></aop:before>-->
+            <!--后置通知：在切入点方法正常执行之后。它和异常通知互斥-->
+            <!--<aop:after-returning method="afterPrintLog" pointcut-ref="pointCut1"></aop:after-returning>-->
+            <!--异常通知：在切入点方法产生异常后执行。它和后置通知互斥-->
+            <!--<aop:after-throwing method="errorPrintLog"  pointcut-ref="pointCut1"></aop:after-throwing>-->
+            <!--后置通知：无论如何都会最后执行-->
+            <!--<aop:after method="finalPrintLog" pointcut="execution(* com.myself.service.impl.*.*(..))"></aop:after>-->
+
+            <!--配置环绕通知:详细用法看Logger类-->
+            <aop:around method="aroundPrintLog" pointcut-ref="pointCut1"></aop:around>
+        </aop:aspect>
+    </aop:config>
+
+    
+</beans>

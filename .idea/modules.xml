@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/new_spring_01_ioc/new_spring_01_ioc.iml" filepath="$PROJECT_DIR$/new_spring_01_ioc/new_spring_01_ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_02_bean/new_spring_02_bean.iml" filepath="$PROJECT_DIR$/new_spring_02_bean/new_spring_02_bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_03_DI/new_spring_03_DI.iml" filepath="$PROJECT_DIR$/new_spring_03_DI/new_spring_03_DI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_04anno_ioc/new_spring_04anno_ioc.iml" filepath="$PROJECT_DIR$/new_spring_04anno_ioc/new_spring_04anno_ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_05account_xml_ioc/new_spring_05account_xml_ioc.iml" filepath="$PROJECT_DIR$/new_spring_05account_xml_ioc/new_spring_05account_xml_ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_06account_anno_ioc/new_spring_06account_anno_ioc.iml" filepath="$PROJECT_DIR$/new_spring_06account_anno_ioc/new_spring_06account_anno_ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_07account_anno_withoutxml_ioc/new_spring_07account_anno_withoutxml_ioc.iml" filepath="$PROJECT_DIR$/new_spring_07account_anno_withoutxml_ioc/new_spring_07account_anno_withoutxml_ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_08_account/new_spring_08_account.iml" filepath="$PROJECT_DIR$/new_spring_08_account/new_spring_08_account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_08_动态代理/new_spring_08_动态代理.iml" filepath="$PROJECT_DIR$/new_spring_08_动态代理/new_spring_08_动态代理.iml" />
+      <module fileurl="file://C:\Users\15173\IdeaProjects\spring\new_spring_09_aop\new_spring_09_aop.iml" filepath="C:\Users\15173\IdeaProjects\spring\new_spring_09_aop\new_spring_09_aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_09_aop/new_spring_09_spring_aop.iml" filepath="$PROJECT_DIR$/new_spring_09_aop/new_spring_09_spring_aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_10_aop_adviceType/new_spring_10_spring_aop_adviceType.iml" filepath="$PROJECT_DIR$/new_spring_10_aop_adviceType/new_spring_10_spring_aop_adviceType.iml" />
+      <module fileurl="file://C:\Users\15173\IdeaProjects\spring\new_spring_10_aop_adviceType\new_spring_10account_aop_adviceType.iml" filepath="C:\Users\15173\IdeaProjects\spring\new_spring_10_aop_adviceType\new_spring_10account_aop_adviceType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_11_aop_anno/new_spring_11_aop_anno.iml" filepath="$PROJECT_DIR$/new_spring_11_aop_anno/new_spring_11_aop_anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_12_account_homework/new_spring_12_account_homework.iml" filepath="$PROJECT_DIR$/new_spring_12_account_homework/new_spring_12_account_homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_13_jdbcTemplate/new_spring_13_jdbcTemplate.iml" filepath="$PROJECT_DIR$/new_spring_13_jdbcTemplate/new_spring_13_jdbcTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_14_tx_xml/new_spring_14_tx.iml" filepath="$PROJECT_DIR$/new_spring_14_tx_xml/new_spring_14_tx.iml" />
+      <module fileurl="file://C:\Users\15173\IdeaProjects\spring\new_spring_14_tx_xml\new_spring_14_tx.iml" filepath="C:\Users\15173\IdeaProjects\spring\new_spring_14_tx_xml\new_spring_14_tx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_15_tx_anno/new_spring_15_tx_anno.iml" filepath="$PROJECT_DIR$/new_spring_15_tx_anno/new_spring_15_tx_anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_spring_16_tx_anno_withoutxml/new_spring_16_tx_anno_withoutxml.iml" filepath="$PROJECT_DIR$/new_spring_16_tx_anno_withoutxml/new_spring_16_tx_anno_withoutxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring.iml" filepath="$PROJECT_DIR$/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_01/spring_01.iml" filepath="$PROJECT_DIR$/spring_01/spring_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_02_注解/spring_02_注解.iml" filepath="$PROJECT_DIR$/spring_02_注解/spring_02_注解.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_04_aop/spring_04_aop.iml" filepath="$PROJECT_DIR$/spring_04_aop/spring_04_aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_05_aop_注解/spring_05_aop_注解.iml" filepath="$PROJECT_DIR$/spring_05_aop_注解/spring_05_aop_注解.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sring_03_注解XML联合使用/sring_03_注解XML联合使用.iml" filepath="$PROJECT_DIR$/sring_03_注解XML联合使用/sring_03_注解XML联合使用.iml" />
+      <module fileurl="file://$PROJECT_DIR$/工厂模式解耦/工厂模式解耦.iml" filepath="$PROJECT_DIR$/工厂模式解耦/工厂模式解耦.iml" />
+    </modules>
+  </component>
+</project>

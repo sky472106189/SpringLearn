@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="new_spring_01_ioc" />
+        <module name="new_spring_02_bean" />
+        <module name="new_spring_03_DI" />
+        <module name="new_spring_04anno_ioc" />
+        <module name="new_spring_05account_xml_ioc" />
+        <module name="new_spring_06account_anno_ioc" />
+        <module name="new_spring_07account_anno_withoutxml_ioc" />
+        <module name="new_spring_08_account" />
+        <module name="new_spring_08_动态代理" />
+        <module name="new_spring_09_spring_aop" />
+        <module name="new_spring_10_spring_aop_adviceType" />
+        <module name="new_spring_11_aop_anno" />
+        <module name="new_spring_12_account_homework" />
+        <module name="new_spring_13_jdbcTemplate" />
+        <module name="new_spring_14_tx" />
+        <module name="new_spring_15_tx_anno" />
+        <module name="new_spring_16_tx_anno_withoutxml" />
+        <module name="new_spring_spring15_tx" />
+        <module name="spring_01" />
+        <module name="SPRING_01_工厂" />
+        <module name="spring_02_注解" />
+        <module name="spring_04_aop" />
+        <module name="spring_05_aop_注解" />
+        <module name="SPRINGn_01" />
+        <module name="sring_03_注解XML联合使用" />
+        <module name="工厂模式解耦" />
+      </profile>
+      <profile name="Annotation profile for spring" enabled="true">
+        <sourceOutputDir name="../new_spring_09_spring_aop/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../new_spring_09_spring_aop/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="new_spring_09_aop" />
+      </profile>
+      <profile name="Annotation profile for new_spring_10_aop_adviceType" enabled="true">
+        <sourceOutputDir name="../new_spring_10_spring_aop_adviceType/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../new_spring_10_spring_aop_adviceType/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="new_spring_10_aop_adviceType" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="new_spring" target="1.5" />
+      <module name="new_spring_01_ioc" target="1.5" />
+      <module name="new_spring_02_bean" target="1.5" />
+      <module name="new_spring_03_DI" target="1.5" />
+      <module name="new_spring_03anno_ioc" target="1.5" />
+      <module name="new_spring_04anno_ioc" target="1.5" />
+      <module name="new_spring_05account_xml_ioc" target="1.5" />
+      <module name="new_spring_06account_anno_ioc" target="1.5" />
+      <module name="new_spring_07account_anno_withoutxml_ioc" target="1.5" />
+      <module name="new_spring_08_account" target="1.5" />
+      <module name="new_spring_08_动态代理" target="1.5" />
+      <module name="new_spring_09_account_anno_transaction" target="1.5" />
+      <module name="new_spring_09_aop" target="1.5" />
+      <module name="new_spring_09_spring_aop" target="1.5" />
+      <module name="new_spring_10_aop_adviceType" target="1.5" />
+      <module name="new_spring_10_spring_aop_adviceType" target="1.5" />
+      <module name="new_spring_11_aop_anno" target="1.5" />
+      <module name="new_spring_12_account_homework" target="1.5" />
+      <module name="new_spring_13_jdbcTemplate" target="1.5" />
+      <module name="new_spring_14_tx" target="1.5" />
+      <module name="new_spring_15_tx_anno" target="1.5" />
+      <module name="new_spring_15_tx_xml" target="1.5" />
+      <module name="new_spring_16_tx_anno_withoutxml" target="1.5" />
+      <module name="new_spring_ioc" target="1.5" />
+      <module name="new_spring_spring15_tx" target="1.5" />
+      <module name="spring" target="1.5" />
+      <module name="spring_01" target="1.5" />
+      <module name="SPRING_01_Account" target="1.5" />
+      <module name="SPRING_01_jdbc" target="1.5" />
+      <module name="SPRING_01_工厂" target="1.5" />
+      <module name="spring_02_注解" target="1.5" />
+      <module name="spring_04_aop" target="1.5" />
+      <module name="spring_05_aop_注解" target="1.5" />
+      <module name="spring_05_webdemo" target="1.5" />
+      <module name="SPRINGn_01" target="1.5" />
+      <module name="sring_03_注解XML联合使用" target="1.5" />
+      <module name="工厂模式解耦" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
